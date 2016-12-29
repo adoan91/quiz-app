@@ -146,7 +146,7 @@ function resetResultsPage() {
 checkCurrentPage();
 
 // start quiz
-$("button.start").click(function(event) {
+$("button.begin").click(function(event) {
   event.preventDefault();
   state.currentPage = 'question';
   checkCurrentPage();
